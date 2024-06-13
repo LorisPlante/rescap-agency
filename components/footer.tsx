@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="/">FAQ</a>
         </li>
       </ul>
-      <div className=" w-1/3 md:w-[1px] h-[1px] md:h-20 bg-bg"></div>
+      <div className=" w-1/3 md:w-[1px] h-[1px] md:h-20 bg-text-reverse"></div>
       <ul className="flex flex-col gap-3">
         <li className="font-bold text-xl pb-3 uppercase">Informations pratique</li>
         <li>
@@ -26,24 +26,24 @@ export default function Footer() {
           <a href="/">Protection des données</a>
         </li>
       </ul>
-      <div className=" w-1/3 md:w-[1px] h-[1px] md:h-20 bg-bg"></div>
+      <div className=" w-1/3 md:w-[1px] h-[1px] md:h-20 bg-text-reverse"></div>
       <ul className="flex flex-col gap-3">
         <li className="font-bold text-xl pb-3 uppercase">Nous suivre</li>
         <li className="flex gap-3">
           <a href="/">
-            <InstagramIcon size={32} className="fill-bg" />
+            <InstagramIcon size={32} className="fill-text-reverse" />
           </a>
           <a href="/">
-            <TiktokIcon size={32} className="fill-bg" />
+            <TiktokIcon size={32} className="fill-text-reverse" />
           </a>
           <a href="/">
-            <XIcon size={32} className="fill-bg" />
+            <XIcon size={32} className="fill-text-reverse" />
           </a>
           <a href="/">
-            <DiscordIcon size={32} className="fill-bg" />
+            <DiscordIcon size={32} className="fill-text-reverse" />
           </a>
           <a href="/">
-            <TwitchIcon size={32} className="fill-bg" />
+            <TwitchIcon size={32} className="fill-text-reverse" />
           </a>
         </li>
       </ul>

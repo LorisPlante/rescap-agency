@@ -11,20 +11,20 @@ export default function Home() {
     <>
       <Header></Header>
       <main className="flex flex-col justify-center items-center pt-24">
-        <section className="relative overflow-x-hidden p-mobile sm:p-desktop w-full min-h-[650px] bg-bg-reverse text-text-reverse font-custom flex justify-center items-center sm:items-start flex-col gap-6">
-          <h1 className="text-4xl sm:text-7xl font-bold uppercase font-custom-titre">Active Gaming</h1>
-          <h2 className="w-full md:w-1/2 font-custom-paragraph text-2xl sm:text-4xl text-center sm:text-left">
-            Dans <span className="text-button-reverse">E-SPORT</span> il y a <span className="text-button-reverse">SPORT</span> !
+        <section className="relative overflow-x-hidden p-mobile sm:p-desktop w-full min-h-[650px] bg-bg text-text font-custom flex justify-center items-center sm:items-start flex-col gap-6">
+          <h1 className="text-4xl sm:text-7xl font-bold uppercase font-custom-titre text-center sm:text-left">Active Gaming</h1>
+          <h2 className="w-full md:w-3/5 font-custom-paragraph text-2xl sm:text-4xl text-center sm:text-left">
+            Dans <span className="text-text-secondary">E-SPORT</span> il y a <span className="text-text-secondary">SPORT</span> !
           </h2>
           <p className="w-full md:w-1/2 font-custom-paragraph text-lg sm:text-xl text-center sm:text-left">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, eaque impedit et voluptatum excepturi natus.
           </p>
-          <div className="flex gap-4 flex-col sm:flex-row w-max">
-            <div className="w-fit px-6 py-2 bg-bg text-text rounded cursor-pointer">Télécharger Active Gaming</div>
-            <div className="w-full sm:w-fit px-6 py-2 bg-transparent text-text-reverse border-custom-reverse border-2 rounded cursor-pointer text-center">{`Plus d'informations`}</div>
+          <div className="flex gap-4 flex-col sm:flex-row w-max font-custom-paragraph">
+            <div className="w-fit px-6 py-2 bg-button-reverse text-button-text-reverse rounded cursor-pointer">Télécharger Active Gaming</div>
+            <div className="w-full sm:w-fit px-6 py-2 bg-bg text-text border-custom border-2 rounded cursor-pointer text-center">{`Plus d'informations`}</div>
           </div>
           <div className="absolute top-1/2 right-0 w-fit transform -translate-y-1/2 translate-x-1/4 hidden md:block">
-            <Logo sizew={800} sizeh={500} className="w-[55vw] h-auto" />
+            <Logo sizew={800} sizeh={500} color="fill-text" className="w-[55vw] h-auto" />
           </div>
         </section>
         <section className="w-full min-h-[450px] p-mobile sm:p-desktop bg-bg text-text font-custom-paragraph flex justify-start items-start flex-col gap-6">
@@ -35,21 +35,21 @@ export default function Home() {
             </a>
           </div>
           <div className="w-full flex flex-col sm:flex-row flex-wrap justify-start items-center gap-4 sm:gap-[2%] text-text-reverse font-custom-paragraph">
-            <a href="/" className="h-52 w-full sm:w-[49%] lg:w-[32%] my-4 sm:my-0 bg-bg-reverse flex rounded">
+            <a href="/" className="h-52 w-full sm:w-[49%] lg:w-[32%] my-4 sm:my-0 bg-bg-reverse flex rounded border-access border-custom">
               <div className="w-2/5 bg-button-reverse h-full rounded"></div>
               <div className="pl-5 py-5 pr-2 flex flex-col justify-between">
                 <h3 className="uppercase font-custom-titre text-2xl font-bold">Active gaming 3.0 est dispo !</h3>
                 <p>Découvrir ses nouvelles fonctionnalités</p>
               </div>
             </a>
-            <a href="/" className="h-52 w-full sm:w-[49%] lg:w-[32%] sm:my-4 my-0 bg-bg-reverse flex rounded">
+            <a href="/" className="h-52 w-full sm:w-[49%] lg:w-[32%] sm:my-4 my-0 bg-bg-reverse flex rounded border-access border-custom">
               <div className="w-2/5 bg-button-reverse h-full rounded"></div>
               <div className="pl-5 py-5 pr-2 flex flex-col justify-between">
                 <h3 className="uppercase font-custom-titre text-2xl font-bold">Active gaming 3.0 est dispo !</h3>
                 <p>Découvrir ses nouvelles fonctionnalités</p>
               </div>
             </a>
-            <a href="/" className="h-52 w-full sm:w-[49%] lg:w-[32%] my-4 sm:my-0 bg-bg-reverse flex rounded">
+            <a href="/" className="h-52 w-full sm:w-[49%] lg:w-[32%] my-4 sm:my-0 bg-bg-reverse flex rounded border-access border-custom">
               <div className="w-2/5 bg-button-reverse h-full rounded"></div>
               <div className="pl-5 py-5 pr-2 flex flex-col justify-between">
                 <h3 className="uppercase font-custom-titre text-2xl font-bold">Active gaming 3.0 est dispo !</h3>
